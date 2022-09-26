@@ -3,8 +3,7 @@
 print("""Welcome to the hospital.
 In order for us to provide you with the best healthcare service, please fill in the required information accurately and completely.""")
 
-## This project is about the hospital taking anamnesis system. 
-
+@Ozge
 class Patient:
 
     def _init_(self, ID, name, surname, age, gender, weight, height, status, profession, phone, address):
@@ -69,15 +68,13 @@ class Patient:
         print("Patient address = %s" % self.__address)
     def set_address(self, newaddress):
         self.__address = newaddress
+        
+ @Enes
 
 from types import ClassMethodDescriptorType
 #Özgeçmiş
 print("""You will enter the informations is about your background. 
 Please, fill in the requested information completely.""")
-
-
-
-
 
 class Ozgecmis():
  # background_information = []
@@ -176,7 +173,7 @@ person_1 = Ozgecmis.get_users_input()
 person_1.show_full_background()
     
    
-   
+@Kibele
 #Soygeçmiş
 
 class Soygecmis:
@@ -209,7 +206,8 @@ class Soygecmis:
     else:
           print("The patients one/more parents are not alive.")
           
-          
+  
+ @Seda
  class Anamnesis:
 
      def __init__(self,pain_location,pain_quality,pain_quantity,pain_timing,pain_onset,exacerbating_factor):
